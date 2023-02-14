@@ -1,25 +1,19 @@
 <%- include('./partials/head') %>
 
-<section class="titel">
-  <h1>Welcome</h1>
-</section>
-
-<main>
-  <section class="card-container">
-    <div class="card">
-      <img class="card-img" src="/david-transparent.png"></img>
-      <div class="card-stickers"></div>
+  <header><img class="logo" src="assets/logo+background.png" alt="squad B logo"></header>
+  
+  <main>
+    <section>
+      <img class="shoe" src="./assets/orange shoe with shadow.png" alt="">
+    </section>
+  
+    <div class="button-container">
+      <span>squad members</span>
+      <button>randomize <i class="fa-solid fa-shuffle"></i></button>
     </div>
-  </section>
-
-  <section class="info">
-    <h2><%= member.name +" "+ member.surname %></h2>
-    <div class="bio"><%- member.bio.html %></div>
-  </section>
-
-<section class="code"><span>html</span> <span>css</span> <span>javascript</span>
-</section>
-</main>
+  
+  
+  </main>
 
 
 <%- include('./partials/foot') %>
