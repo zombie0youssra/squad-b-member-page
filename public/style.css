@@ -1,9 +1,12 @@
 :root {
+    /* colors */
     --background-color: #252422;
     --text-color-1: #403D39;
     --text-color-2: #D9D9D9;
     --extra-accent-colors: #EB5E28;
     --sub-accent-color: #FF4700;
+
+    /* fonts and sizes*/
 }
 
 body {
@@ -75,6 +78,14 @@ li a:hover {
     font-size: 1.5rem;
 }
 
+.marquee span{
+    color: var(--text-color-2);
+}
+
+.marquee strong{
+    color: var(--sub-accent-color);
+}
+
 .marquee p {
     width: max-content;
     animation: to-the-left 15s linear infinite;
@@ -122,7 +133,7 @@ li a:hover {
 
 
 
-/* different sorting methods */
+/* different buttons */
 
 .button-container {
     display: flex;
@@ -157,26 +168,5 @@ button i {
 /* resize for.... */
 
 @media screen and (min-width: 600px) {
-    /* text-animation */
-        /* van cyd gestolen */
-        .marquee {
-            margin: 1.25rem clamp(1.5rem, calc(120 / 1440 * 100vw), 7.5rem) 0;
-            white-space: nowrap;
-            overflow: hidden;
-            font-size: 1.5rem;
-            background-color: #EB5E28;
-        }
-    
-        .marquee p {
-            width: max-content;
-            animation: to-the-left 15s linear infinite;
-        }
-    
-    
-        @keyframes to-the-left {
-            to {
-                transform: translateX(calc(-100% / 5));
-            }
-        }
-
+  
 }

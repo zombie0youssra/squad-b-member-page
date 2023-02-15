@@ -21,19 +21,19 @@
     <section class="marquee">
       <p>
         <span>
-          <strong>new 2023 collection</strong> — FDND edition - <strong>frontenders</strong> — ON SALE —
+          <strong>new 2023 collection</strong> — FDND edition — <strong>frontenders</strong> — ON SALE —
         </span>
         <span aria-hidden>
           <span>
-            <strong>new 2023 collection</strong> — FDND edition - <strong>frontenders</strong> — ON SALE —
+            <strong>new 2023 collection</strong> — FDND edition — <strong>frontenders</strong> — ON SALE —
           </span>
           <span aria-hidden>
             <span>
-              <strong>new 2023 collection</strong> — FDND edition - <strong>frontenders</strong> — ON SALE —
+              <strong>new 2023 collection</strong> — FDND edition — <strong>frontenders</strong> — ON SALE —
             </span>
             <span aria-hidden>
               <span>
-                <strong>new 2023 collection</strong> — FDND edition - <strong>frontenders</strong> — ON SALE —
+                <strong>new 2023 collection</strong> — FDND edition — <strong>frontenders</strong> — ON SALE —
               </span>
       
       </p>
@@ -55,18 +55,18 @@
     <!-- members -->
     <% squad.members.forEach(member=> { %>
       <section class="card-container">
-        <div class="member-card">
-          <% if (member.avatar) { %>
-            <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-            <% }else{ %>
-              <img src="/placeholder.jfif" alt="Placeholder avatar" />
-              <% } %>
-                <p>
-                  <%= member.name %>
-                    <%= member.prefix %>
-                      <%= member.surname %>
-                </p>
-        </div>
+      <div class="member-card">
+        <% if (member.avatar) { %>
+          <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+          <% }else{ %>
+            <img src="/placeholder.jfif" alt="Placeholder avatar" />
+            <% } %>
+              <p>
+                <%= member.name %>
+                  <%= member.prefix %>
+                    <%= member.surname %>
+              </p>
+            </div>
       </section>
       <% }) %>
   
