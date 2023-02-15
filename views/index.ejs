@@ -54,8 +54,7 @@
 
     <!-- members -->
     <% squad.members.forEach(member=> { %>
-      <section class="members-in-squad">
-      <article>
+      <section class="members-in-squad"><article>
         <% if (member.avatar) { %>
           <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
           <% }else{ %>
@@ -73,6 +72,7 @@
     <div class="button-container">
       <button>randomize <i class="fa-solid fa-shuffle"></i></button>
       <button>favorite <i class="fa-solid fa-heart"></i></button>
+      <button>suprise <i class="fa-solid fa-bomb fa-shake"></i></button>
     </div>
   
   
