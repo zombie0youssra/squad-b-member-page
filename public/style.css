@@ -36,7 +36,27 @@ body::-webkit-scrollbar-thumb {
     margin-left: 6em;
 }
 
+ul{
+    margin-left: em;
+    display: flex;
+    
+}
 
+li{
+    list-style: none;  
+    margin-left: 2.5em;
+
+}
+
+
+li a {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+li a:hover{
+    color: var(--extra-accent-colors);
+}
 
 
 
@@ -62,9 +82,8 @@ main {
 }
 article{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 10em;
 
 }
 
