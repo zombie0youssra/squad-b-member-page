@@ -54,18 +54,19 @@
 
     <!-- members -->
     <% squad.members.forEach(member=> { %>
-      <section class="members-in-squad"><article>
-        <% if (member.avatar) { %>
-          <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-          <% }else{ %>
-            <img src="/placeholder.jfif" alt="Placeholder avatar" />
-            <% } %>
-              <p>
-                <%= member.name %>
-                  <%= member.prefix %>
-                    <%= member.surname %>
-              </p>
-      </article>
+      <section class="card-container">
+        <div class="member-card">
+          <% if (member.avatar) { %>
+            <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+            <% }else{ %>
+              <img src="/placeholder.jfif" alt="Placeholder avatar" />
+              <% } %>
+                <p>
+                  <%= member.name %>
+                    <%= member.prefix %>
+                      <%= member.surname %>
+                </p>
+        </div>
       </section>
       <% }) %>
   

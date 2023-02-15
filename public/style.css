@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb {
 .logo {
     height: 13em;
     width: auto;
-    margin-left: 6.5em;
+    margin-left: 6.2em;
 }
 
 
@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
 
 
 ul {
-    margin-left: 1em;
+    margin-left: 0.7em;
     display: flex;
 
 }
@@ -69,7 +69,6 @@ li a:hover {
 /* text-animation */
 /* van cyd gestolen */
 .marquee {
-    /* width: 100%; */
     margin: 1.25rem clamp(1.5rem, calc(120 / 1440 * 100vw), 7.5rem) 0;
     white-space: nowrap;
     overflow: hidden;
@@ -96,7 +95,7 @@ li a:hover {
     /* position: absolute; */
     height: 30em;
     width: 30em;
-    margin-left: -3em;
+    margin-left: -3.2sem;
 }
 
 
@@ -105,21 +104,17 @@ li a:hover {
 
 /* member cards */
 
-
-
-.members-in-squad{
-    margin-left: 2em;
-    margin-top: 3em;
-
+.card-container{
+    margin-left: 3em;
 }
 
 
-article{
+.member-card{
     background-color: #403D39;
     width: 10em;
 }
 
-article img {
+.member-card img {
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
@@ -162,5 +157,26 @@ button i {
 /* resize for.... */
 
 @media screen and (min-width: 600px) {
+    /* text-animation */
+        /* van cyd gestolen */
+        .marquee {
+            margin: 1.25rem clamp(1.5rem, calc(120 / 1440 * 100vw), 7.5rem) 0;
+            white-space: nowrap;
+            overflow: hidden;
+            font-size: 1.5rem;
+            background-color: #EB5E28;
+        }
     
+        .marquee p {
+            width: max-content;
+            animation: to-the-left 15s linear infinite;
+        }
+    
+    
+        @keyframes to-the-left {
+            to {
+                transform: translateX(calc(-100% / 5));
+            }
+        }
+
 }
