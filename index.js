@@ -6,10 +6,10 @@ const app = express();
 
 // get info form api
 
-const url = "https://whois.fdnd.nl/api/v1/member/youssra-elmortai";
+const url = "https://whois.fdnd.nl/api/v1/squad/squad-b-2022";
 const data = await fetch(url).then((response) => response.json());
 
-// console.log(data);
+console.log(data);
 
 // Stel ejs in als template engine en geef de 'views' map door
 app.set("view engine", "ejs");

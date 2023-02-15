@@ -55,6 +55,26 @@ main {
     margin-left: -4em;
 }
 
+/* member cards */
+
+.members-in-squad{
+    margin-left: 10em;
+    margin-top: 3em
+}
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 10em;
+
+}
+
+article img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
 
 
 .button-container {

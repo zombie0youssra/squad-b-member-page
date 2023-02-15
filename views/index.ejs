@@ -6,6 +6,24 @@
     <section>
       <img class="shoe" src="./orange shoe with shadow.png" alt="ornage jordan high top sneaker">
     </section>
+
+    <!-- members -->
+    <% squad.members.forEach(member=> { %>
+      <section class="members-in-squad">
+      <article>
+        <% if (member.avatar) { %>
+          <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+          <% }else{ %>
+            <img src="/placeholder.jpg" alt="Placeholder avatar" />
+            <% } %>
+              <p>
+                <%= member.name %>
+                  <%= member.prefix %>
+                    <%= member.surname %>
+              </p>
+      </article>
+      </section>
+      <% }) %>
   
     <div class="button-container">
       <span>squad members</span>
