@@ -48,33 +48,33 @@
 
 
 
-    <section>
+    <section class="shoe-box">
       <img class="shoe" src="./orange shoe with shadow.png" alt="ornage jordan high top sneaker">
     </section>
 
     <!-- members -->
-    <% squad.members.forEach(member=> { %>
-      <section class="card-container">
-      <div class="member-card">
-        <% if (member.avatar) { %>
-          <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
-          <% }else{ %>
+    <section class="card-container">
+      <% squad.members.forEach(member=> { %>
+        <div class="member-card">
+          <% if (member.avatar) { %>
+            <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+          <% } else { %>
             <img src="/placeholder.jfif" alt="Placeholder avatar" />
-            <% } %>
-              <p>
-                <%= member.name %>
-                  <%= member.prefix %>
-                    <%= member.surname %>
-              </p>
-            </div>
+          <% } %>
+          <p>
+            <%= member.name %>
+            <%= member.prefix %>
+            <%= member.surname %>
+          </p>
+        </div>
+       <% }) %>
       </section>
-      <% }) %>
   
-    <div class="button-container">
+    <section class="button-container">
       <button>randomize <i class="fa-solid fa-shuffle"></i></button>
       <button>favorite <i class="fa-solid fa-heart"></i></button>
       <button>suprise <i class="fa-solid fa-bomb fa-shake"></i></button>
-    </div>
+    </section>
   
   
   </main>

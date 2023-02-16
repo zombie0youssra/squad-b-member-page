@@ -99,14 +99,17 @@ li a:hover {
 }
 
 
-
-
+.shoe-box{
+    height: 20em;
+    width: 10em;
+    margin-left: -2em;
+    margin-bottom: 8em;
+}
 
 .shoe {
     /* position: absolute; */
     height: 30em;
     width: 30em;
-    margin-left: -3.2sem;
 }
 
 
@@ -115,19 +118,26 @@ li a:hover {
 
 /* member cards */
 
+
 .card-container{
     margin-left: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    
 }
 
 
 .member-card{
     background-color: #403D39;
-    width: 10em;
+    height: 10em;
+    width: 7em;
 }
 
 .member-card img {
-    height: 5rem;
-    width: 5rem;
+    height: 6em;
+    width: auto;
     border-radius: 50%;
 }
 
