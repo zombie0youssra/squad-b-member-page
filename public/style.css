@@ -143,6 +143,7 @@ li a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1em;
+    margin-bottom: 3em;
     
 }
 
@@ -171,6 +172,15 @@ li a:hover {
 .quote-img{
     height: 24em;
     width: auto;
+    margin-left: 1.5em;
+}
+
+
+.quote-shoe {
+    display: none;
+    height: 24em;
+    width: auto;
+    margin-top: -2.2em;
     margin-left: 1.5em;
 }
 
@@ -256,7 +266,10 @@ button i {
                     margin-top: 4em;
                     margin-left: 3em;
                     height: 13em;
-                    width: 25em;
+                    width: 20em;
                     background-color: var(--extra-accent-colors);
                 }
+
+                                .quote-shoe {
+                                    display: block;}
 }
