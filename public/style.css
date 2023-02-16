@@ -104,6 +104,8 @@ li a:hover {
 
 .shoe-box{
     position: relative;
+    display: flex;
+    flex-direction: row;
     height: 20em;
     width: 10em;
     margin-left: -2em;
@@ -112,6 +114,18 @@ li a:hover {
 }
 
 .shoe {
+    height: 30em;
+    width: 30em;
+}
+
+.shoe-2{
+    display: none;
+    height: 30em;
+    width: 30em;
+}
+
+.shoe-3 {
+    display: none;
     height: 30em;
     width: 30em;
 }
@@ -178,10 +192,39 @@ button i {
 }
 
 
-
-
 /* resize for.... */
 
 @media screen and (min-width: 600px) {
-  
+
+    .logo {
+        height: 13em;
+        width: auto;
+        margin-left: 6.2em;
+    }
+
+
+
+
+    ul {
+        margin-left: 1.4em;
+        display: flex;
+
+    }
+
+    /* more shoes appear */
+
+    .shoe-2 {
+        display: block;
+        margin-left: -5em;
+        height: 30em;
+        width: 30em;
+    }
+
+    .shoe-3 {
+        display: block;
+        margin-left: -5em;
+        height: 30em;
+        width: 30em;
+    }
+
 }
