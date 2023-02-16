@@ -149,8 +149,8 @@ li a:hover {
 
 .member-card{
     background-color: #403D39;
-    height: 10em;
-    width: 7em;
+    height: auto;
+    width: 47%;
 }
 
 .member-card img {
@@ -160,6 +160,14 @@ li a:hover {
 }
 
 
+/* quote img size */
+
+.quote-img{
+    height: 24em;
+    width: auto;
+    margin-left: 1.5em;
+}
+
 
 /* different buttons */
 
@@ -167,7 +175,6 @@ li a:hover {
     display: flex;
     flex-direction: row;
     font-size: 24px;
-    margin-top: 3em;
     margin-bottom: 2em;
 }
 
@@ -226,5 +233,13 @@ button i {
         height: 30em;
         width: 30em;
     }
+
+    /* member card resize */
+
+        .member-card {
+            background-color: #403D39;
+            height: auto;
+            width: 30%;
+        }
 
 }
