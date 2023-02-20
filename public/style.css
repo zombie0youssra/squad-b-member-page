@@ -78,7 +78,6 @@ li a:hover {
 /* van cyd gestolen */
 .marquee {
     margin: 1.25rem clamp(1.5rem, calc(120 / 1440 * 100vw), 7.5rem) 0;
-    white-space: nowrap;
     overflow: hidden;
     font-size: 1.5rem;
     font-family:'Oswald',sans-serif; 
@@ -94,13 +93,13 @@ li a:hover {
 
 .marquee p {
     width: max-content;
-    animation: to-the-left 15s linear infinite;
+    animation: to-the-left 11s linear infinite;
 }
 
 
 @keyframes to-the-left {
     to {
-        transform: translateX(calc(-100% / 5));
+        transform: translateX(calc(-100% / 4));
     }
 }
 
