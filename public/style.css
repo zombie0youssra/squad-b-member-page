@@ -43,8 +43,21 @@ body::-webkit-scrollbar-thumb {
     width: auto;
     margin-left: 4em;
 }
+.text{
+ opacity: 1;
+ font-size: 17px;
+ margin-left: 3em;
+ margin-bottom: 2em;
+ transition: all 360ms ease-out;
+ transition: transform 0.7s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+ transform: translateY(100%);
+ width: 80%;
+ }
 
-
+ .show {
+     opacity: 1;
+     transform: translateY(0);
+ }
 
 
 
@@ -154,16 +167,21 @@ li a:hover {
     background-color: #403D39;
     height: auto;
     width: 43%;
+    
     box-shadow: var(--sub-accent-color);
+}
+
+.member-card:hover{
+    opacity: 80%;
 }
 
 .member-card img {
     height: 6em;
     width: auto;
-    border-radius: 50%;
     margin-left: 3em;
     margin-top: 1em;
 }
+
 
 .member-card p {
     margin-left: 2.8em;
@@ -178,6 +196,9 @@ li a:hover {
     color: var(--sub-accent-color);
 }
 
+.member-shoes{
+
+}
 
 /* form and container  */
 
@@ -254,6 +275,9 @@ button i {
         display: flex;
 
     }
+        .text {
+            margin-left: 4em;
+        }
 
     /* more shoes appear */
 

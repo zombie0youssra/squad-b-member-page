@@ -38,6 +38,7 @@
       </p>
     </section>
 
+
     <!-- <section class="banner">
       <h1 class="collection-year">
         NEW 2023 COLLECTION
@@ -57,14 +58,13 @@
     <section class="card-container">
       <% squad.members.forEach(member=> { %>
         <div class="member-card">
-          <% if (member.avatar) { %>
+          <% if (member.avatar) { %> 
             <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
           <% } else { %>
             <img src="/placeholder.jfif" alt="Placeholder avatar" />
           <% } %>
           <p>
             <%= member.name %>
-            <%= member.prefix %>
             <%= member.surname %>
           </p>
           <p class="icon-container">
@@ -73,8 +73,20 @@
           <a class="member-icon" href="/?squad=squat-c-2022"><i class="fa-solid fa-comment"></i></a>
           </p>
         </div>
+      
        <% }) %>
       </section>
+
+      <section class="text">Wij helpen bedrijven en organisaties hun missie te vertalen naar sterke digitale
+        platformen die groeien en impact maken.
+        We zijn intrinsiek gemotiveerd in het werk dat we doen. Zo maken we positieve verandering mogelijk.
+      </section>
+      
+      <section class="text">Wij helpen bedrijven en organisaties hun missie te vertalen naar sterke digitale
+        platformen die groeien en impact maken.
+        We zijn intrinsiek gemotiveerd in het werk dat we doen. Zo maken we positieve verandering mogelijk.
+      </section>
+
 
     <section class="container-form">
       <img class="quote-img" src="./dark-mode-quote.png">
