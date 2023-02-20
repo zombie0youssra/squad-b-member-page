@@ -164,15 +164,14 @@ li a:hover {
 
 
 .member-card{
-    background-color: #403D39;
+    background-color:var(--text-color-1);
     height: auto;
     width: 43%;
-    
-    box-shadow: var(--sub-accent-color);
 }
 
 .member-card:hover{
     opacity: 80%;
+    border-bottom: solid var(--sub-accent-color);
 }
 
 .member-card img {
