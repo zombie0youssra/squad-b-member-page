@@ -255,7 +255,6 @@ button i {
     color: var(--sub-accent-color);
 }
 
-
 /* resize for.... */
 
 @media screen and (min-width: 600px) {
@@ -274,9 +273,10 @@ button i {
         display: flex;
 
     }
-        .text {
-            margin-left: 4em;
-        }
+
+    .text {
+        margin-left: 4em;
+    }
 
     /* more shoes appear */
 
@@ -296,21 +296,26 @@ button i {
 
     /* member card resize */
 
-        .member-card {
-            background-color: #403D39;
-            height: auto;
-            width: 30%;
+    .member-card {
+        background-color: #403D39;
+        height: auto;
+        width: 30%;
+    }
+
+    .form {
+        display: block;
+        margin-top: 4em;
+        margin-left: 3em;
+        height: 13em;
+        width: 20em;
+        background-color: var(--extra-accent-colors);
+    }
+
+    .quote-shoe {
+        display: block;
+    }
+
+        .button-container{
+            margin-left: 2em;
         }
-
-                .form {
-                    display: block;
-                    margin-top: 4em;
-                    margin-left: 3em;
-                    height: 13em;
-                    width: 20em;
-                    background-color: var(--extra-accent-colors);
-                }
-
-                                .quote-shoe {
-                                    display: block;}
-}
+        }
