@@ -22,7 +22,7 @@ Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 
-## Installatie
+## Installatie 🌈
 
 1. Om in de repository te werken en aanpassingen te maken moet je node.js downloaden versie: .
 2. Clone of download deze respository.
@@ -31,11 +31,11 @@ Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
 5. Daarna door gerbruik van `npm start` krijg je een localhost link waar je de code live ziet.
 6. Live zetten van je project kan met behulp van cyclic.
 
-## Gebruik
+## Gebruik 🍽
 
-## Bronnen
-de bronnen die ik heb gebruikt voor het maken van deze site zijn te vinden in mijn wiki.
-[WIKI](https://github.com/zombie0youssra/squad-b-member-page/wiki/Analyseren-%F0%9F%91%80#bronnen)
+
+## Bronnen 🎒
+de bronnen die ik heb gebruikt voor het maken van deze site zijn te vinden in mijn [WIKI](https://github.com/zombie0youssra/squad-b-member-page/wiki/Analyseren-%F0%9F%91%80#bronnen)
 
 ## Licentie
 
