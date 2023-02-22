@@ -13,6 +13,7 @@ Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
 
 ## Beschrijving ✍
 
+### wat is node
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
@@ -20,6 +21,18 @@ Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
 ## Kenmerken 💻
 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+### tools
+- figma
+- goodnotes
+- visuel studio code
+
+### gerbuikte technieken
+- ejs
+- javascript
+- node.js
+- express
+- css
 
 
 ## Installatie 🌈
