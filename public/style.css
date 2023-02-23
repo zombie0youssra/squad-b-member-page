@@ -21,10 +21,11 @@ body {
 }
 
 /* big blobby boii */
-/* 
+
 .blob {
     background: linear-gradient(to right, var(--sub-accent-color), var(--extra-accent-colors), var(--text-color-2));
     height: 30em;
+    opacity: 30%;
     aspect-ratio: 1;
     position: absolute;
     border-radius: 50%;
@@ -46,7 +47,7 @@ body {
         rotate: 360deg;
     }
 
-} */
+} 
 
 
 
