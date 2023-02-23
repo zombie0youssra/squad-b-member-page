@@ -53,8 +53,9 @@ Node is
 6. Live zetten van je project kan met behulp van cyclic.
 
 ## Gebruik 🍽
-op de website kan je naar verschillende squadpagina's. je kan de 3 verschillende buttons gerbuiken om  de members te soorteren op kleur, achternaam en nickname
-<img width="358" alt="image" src="https://user-images.githubusercontent.com/112857270/220895493-e7f53e0c-5c23-4090-a5e2-e632f27ea122.png">
+<img width="328" alt="image" src="https://user-images.githubusercontent.com/112857270/220895706-c12e3918-d5d3-4b47-9912-33a6b163c270.png">
+
+op de website kan je naar verschillende squadpagina's. je kan de 3 verschillende buttons gerbuiken om  de members te soorteren op kleur, achternaam en nickname.
 
 
 ## Bronnen 🎒
