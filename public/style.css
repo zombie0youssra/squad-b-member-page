@@ -8,7 +8,7 @@
 
 
     /* fonts and sizes*/
-    
+
 }
 
 body {
@@ -16,17 +16,39 @@ body {
     color: #D9D9D9;
     margin: 0;
     padding: 0;
-    font-family:'roboto', sans-serif;
-    
+    font-family: 'roboto', sans-serif;
+
 }
 
 /* big blobby boii */
 
-.blob{
-    background-color: #EB5E28;
-    height: 20em;
+.blob {
+    background: linear-gradient(to right, var(--sub-accent-color), var(--extra-accent-colors), var(--text-color-2));
+    height: 30em;
     aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -100;
+    animation: rotate 20s infinite;
+    filter: blur(10em);
+
 }
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+    50%{
+        scale: 1 1.2;
+    }
+
+    to {
+        rotate: 360deg
+    }
+
+}
+
+
 
 /* scrollbar */
 
@@ -83,14 +105,14 @@ li a:hover {
     margin: 1.25rem clamp(1.5rem, calc(120 / 1440 * 100vw), 7.5rem) 0;
     overflow: hidden;
     font-size: 1.5rem;
-    font-family:'Oswald',sans-serif; 
+    font-family: 'Oswald', sans-serif;
 }
 
-.marquee span{
+.marquee span {
     color: var(--text-color-2);
 }
 
-.marquee strong{
+.marquee strong {
     color: var(--sub-accent-color);
 }
 
@@ -107,7 +129,7 @@ li a:hover {
 }
 
 
-.shoe-box{
+.shoe-box {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -123,7 +145,7 @@ li a:hover {
     width: 30em;
 }
 
-.shoe-2{
+.shoe-2 {
     display: none;
     height: 30em;
     width: 30em;
@@ -142,25 +164,25 @@ li a:hover {
 /* member cards */
 
 
-.card-container{
+.card-container {
     margin-left: 3em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1em;
     margin-bottom: 3em;
-    
+
 }
 
 
-.member-card{
-    background-color:var(--text-color-1);
+.member-card {
+    background-color: var(--text-color-1);
     height: auto;
     width: 43%;
-    border-bottom:solid var(--text-color-1);
+    border-bottom: solid var(--text-color-1);
 }
 
-.member-card:hover{
+.member-card:hover {
     opacity: 80%;
     border-bottom: solid var(--sub-accent-color);
 }
@@ -182,19 +204,19 @@ li a:hover {
     margin-left: 0.5em;
 }
 
-.member-card i:hover{
+.member-card i:hover {
     color: var(--sub-accent-color);
 }
 
 /* form and container  */
 
-.container-form{
+.container-form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.quote-img{
+.quote-img {
     height: 24em;
     width: auto;
     margin-left: 1.5em;
@@ -209,7 +231,7 @@ li a:hover {
     margin-left: 1.5em;
 }
 
-.form{
+.form {
     display: none;
 }
 
@@ -232,11 +254,11 @@ button {
     border-color: transparent;
 }
 
-button:hover{
+button:hover {
     border: #FF4700 solid 0.2em;
 }
 
-button a{
+button a {
     text-decoration: none;
     color: var(--text-color-1);
 }
@@ -306,7 +328,7 @@ button i {
         display: block;
     }
 
-        .button-container{
-            margin-left: 2em;
-        }
-        }
+    .button-container {
+        margin-left: 2em;
+    }
+}
