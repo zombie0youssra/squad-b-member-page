@@ -55,7 +55,7 @@ Node is
 ## Gebruik 🍽
 <img width="328" alt="image" src="https://user-images.githubusercontent.com/112857270/220895706-c12e3918-d5d3-4b47-9912-33a6b163c270.png">
 
-op de website kan je naar verschillende squadpagina's. je kan de 3 verschillende buttons gerbuiken om  de members te soorteren op kleur, achternaam en nickname.
+op de website kan je naar verschillende squadpagina's. je kan de 3 verschillende buttons gerbuiken om  de members te soorteren op kleur, achternaam en random.
 
 
 ## Bronnen 🎒
