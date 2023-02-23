@@ -1,6 +1,7 @@
 # squadpage 👟
 Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
-<img width="512" alt="image" src="https://user-images.githubusercontent.com/112857270/220627779-322270fb-4eb1-42cc-8ad7-c2e76f52a6a1.png">
+<img width="845" alt="image" src="https://user-images.githubusercontent.com/112857270/220895141-99344834-dc8a-4259-b4e4-82d90d09799f.png">
+
 
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
