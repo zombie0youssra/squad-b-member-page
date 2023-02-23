@@ -21,7 +21,7 @@ body {
 }
 
 /* big blobby boii */
-
+/* 
 .blob {
     background: linear-gradient(to right, var(--sub-accent-color), var(--extra-accent-colors), var(--text-color-2));
     height: 30em;
@@ -43,10 +43,10 @@ body {
     }
 
     to {
-        rotate: 360deg
+        rotate: 360deg;
     }
 
-}
+} */
 
 
 
