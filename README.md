@@ -1,6 +1,7 @@
 # squadpage 👟
 Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
-<img width="512" alt="image" src="https://user-images.githubusercontent.com/112857270/220627779-322270fb-4eb1-42cc-8ad7-c2e76f52a6a1.png">
+<img width="845" alt="image" src="https://user-images.githubusercontent.com/112857270/220895141-99344834-dc8a-4259-b4e4-82d90d09799f.png">
+
 
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
@@ -16,6 +17,11 @@ Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
 ## Beschrijving ✍
 
 ### wat is node
+Node is
+
+### ejs
+
+### express
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
@@ -47,6 +53,9 @@ Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
 6. Live zetten van je project kan met behulp van cyclic.
 
 ## Gebruik 🍽
+<img width="328" alt="image" src="https://user-images.githubusercontent.com/112857270/220895706-c12e3918-d5d3-4b47-9912-33a6b163c270.png">
+
+op de website kan je naar verschillende squadpagina's. je kan de 3 verschillende buttons gerbuiken om  de members te soorteren op kleur, achternaam en random.
 
 
 ## Bronnen 🎒
