@@ -16,6 +16,11 @@ Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
 ## Beschrijving ✍
 
 ### wat is node
+Node is
+
+### ejs
+
+### express
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
@@ -47,7 +52,7 @@ Een squadpagina op basis van een bestaande API gesorteerd op squad en naam
 6. Live zetten van je project kan met behulp van cyclic.
 
 ## Gebruik 🍽
-
+op de website kan je naar verschillende squadpagina's. Op de 3 verschillende buttons kan je de members soorteren op kleur, achternaam en nickname
 
 ## Bronnen 🎒
 de bronnen die ik heb gebruikt voor het maken van deze site zijn te vinden in mijn [WIKI](https://github.com/zombie0youssra/squad-b-member-page/wiki/Analyseren-%F0%9F%91%80#bronnen)
