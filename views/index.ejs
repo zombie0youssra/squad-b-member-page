@@ -54,8 +54,10 @@
 
     <!-- members -->
     <section class="card-container">
+      <!-- de for each loop zorgt ervoor dat elke element die is gekozen (member) wordt geloopt waardoor je maar 1 keer moet schrijven wat ermoet gebeuren -->
       <% squad.members.forEach(member=> { %>
         <div class="member-card">
+          <!-- ik heb een if else statement gebruikt die ervoor zorgt dat als er geen member.avatar is voor de meber het een placeholder gebruikt -->
           <% if (member.avatar) { %> 
             <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
           <% } else { %>
